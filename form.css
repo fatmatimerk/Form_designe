@@ -1,0 +1,121 @@
+body{
+    background-image: url(images-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size:50%;
+    background-color:white;
+    font-size: 18px; height:110vh; 
+}
+#for{
+    width:50% ; height:100vh; 
+    border:1px solid rgb(17, 89, 156); margin-right: 5%;
+    box-shadow:gray 2px 2px 5px 5px ; margin-top: 2%;
+    border-radius: 10px 10px 10px 10px;
+    float: right;
+
+}
+
+#foh{
+    color:rgb(25, 129, 158) ; text-shadow:gray 10px 10px 10px ;
+    margin-left: 25%; 
+}
+
+#fod{
+    width:80%;  height:75vh;  margin-right: 10%;
+    border:1px gray solid;
+    color:rgb(55, 105, 119) ;
+    font-weight:bold; text-shadow:gray 10px 10px 10px ;
+    text-align: center; margin: auto; 
+    border-radius: 30px 30px 30px 30px;
+
+}
+#fod:hover{
+  box-shadow:gray 2px 2px 5px 5px ; 
+}
+
+.bu{
+    width: 20%; height: 5vh;
+    border:1px solid rgb(45, 134, 218);
+    border-radius: 10px 10px 10px 10px;
+    background-color: #0e7a9b; margin: 2%;
+}
+.bu:hover{
+    background-color: aqua;
+}
+#in{
+   width: 30%;
+}
+
+@media screen and (min-device-width : 200px) and (max-device-width : 480px){
+    body{
+        background-image: url(images-removebg-preview-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size:cover; 
+        height:130vh; 
+    }
+    #for{
+        width:90% ; height:122vh; 
+        border:1px solid rgb(17, 89, 156); margin-right: 5%;
+        box-shadow:gray 2px 2px 5px 5px ; margin-top: 2%;
+        border-radius: 10px 10px 10px 10px;
+        float: right;  font-weight: bolder; font-size: 20px;
+        
+    }
+    
+    #foh{
+       font-size: 20px; margin-left: 30%; color:white;
+    }
+    #fod{
+      font-size: 12px; height:95vh;  width:90%;
+    }
+    #fod h3{
+        font-size: 16px; color:white;
+    }
+    #fod h4{
+        font-size: 13px; color:white;
+    }
+    #in{
+        width: 40%;  margin:5px; 
+    }
+    .bu{
+        width: 30%; height: 5vh;
+        font-size: 10px;
+    
+    }
+}
+@media screen and (min-device-width : 480px) and (max-device-width : 1024px){
+    body{
+        background-image: url(images-removebg-preview-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size:cover; 
+        height:130vh; 
+    }
+    #for{
+        width:90% ; height:122vh; 
+        border:1px solid rgb(17, 89, 156); margin-right: 5%;
+        box-shadow:gray 2px 2px 5px 5px ; margin-top: 2%;
+        border-radius: 10px 10px 10px 10px;
+        float: right;  font-weight: bolder; font-size: 20px;
+        
+    }
+    #foh{
+        font-size: 25px; margin-left: 35%; color:white;
+     }
+     #fod{
+       font-size: 12px; height:100vh;  width:90%;
+     }
+     #fod h3{
+        font-size: 20px; color:white;
+     }
+     #fod h4{
+        font-size: 17px; color:white;
+    }
+     #in{
+        width: 40%;  margin:5px; 
+     }
+     .bu{
+        width: 30%; height: 8vh;
+        font-size: 15px;
+     
+     }
+}
+
